@@ -43,6 +43,11 @@
   padding: 15px 0;
   font-weight: 500;
   cursor: pointer;
+  text-decoration: none;
+  color: black;
+}
+.active{
+    color: red;
 }
 .nav:hover {
   color: rgb(14, 21, 167);
