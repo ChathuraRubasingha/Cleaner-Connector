@@ -16,30 +16,30 @@ function Sidebar() {
     <div className="sidebar">
       <div className="navigation">
         <NavLink className="nav" activeClassName="active" to="/">
-          <FaUser style={{ padding: "0 20px 0 10px" }} />
+          <FaUser style={{ margin:'0 20px 0 10px'}} />
           My Profile
         </NavLink>
         <NavLink className="nav" activeClassName="active" to="/">
-          <FaBuilding style={{ padding: "0 20px 0 10px" }} /> My Clients & Sites
+          <FaBuilding style={{ margin: "0 20px 0 10px" }} /> My Clients & Sites
         </NavLink>
         <NavLink className="nav" activeClassName="active" to="/mycleaner">
-          <FaUsers style={{ padding: "0 20px 0 10px" }} />
+          <FaUsers style={{ margin: "0 20px 0 10px" }} />
           My Cleaners
         </NavLink>
         <NavLink className="nav" activeClassName="active" to="/">
-          <FaShoppingCart style={{ padding: "0 20px 0 10px" }} />
+          <FaShoppingCart style={{ margin: "0 20px 0 10px" }} />
           Orders
         </NavLink>
         <NavLink className="nav" activeClassName="active" to="/">
-          <FaCogs style={{ padding: "0 20px 0 10px" }} />
+          <FaCogs style={{ margin: "0 20px 0 10px" }} />
           Operations
         </NavLink>
         <NavLink className="nav" activeClassName="active" to="/">
-          <FaClock style={{ padding: "0 20px 0 10px" }} />
+          <FaClock style={{ margin: "0 20px 0 10px" }} />
           Time on site progress
         </NavLink>
         <NavLink className="nav" activeClassName="active" to="/">
-          <FaClipboardCheck style={{ padding: "0 20px 0 10px" }} />
+          <FaClipboardCheck style={{ margin: "0 20px 0 10px" }} />
           Attendance Summary
         </NavLink>
       </div>

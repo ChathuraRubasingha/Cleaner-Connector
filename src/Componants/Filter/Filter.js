@@ -7,15 +7,7 @@ function Filter() {
       <div className="row">
         <div className="col">
           <select className="form-select">
-            <option>hello</option>
-            <option>hello</option>
-            <option>hello</option>
-          </select>
-        </div>
-        <div className="col">
-          {" "}
-          <select className="form-select">
-            <option>hello</option>
+            <option selected>Select Name</option>
             <option>hello</option>
             <option>hello</option>
           </select>
@@ -23,7 +15,15 @@ function Filter() {
         <div className="col">
           {" "}
           <select className="form-select">
+            <option selected>Select Site</option>
             <option>hello</option>
+            <option>hello</option>
+          </select>
+        </div>
+        <div className="col">
+          {" "}
+          <select className="form-select">
+            <option selected>Select Address</option>
             <option>hello</option>
             <option>hello</option>
           </select>
