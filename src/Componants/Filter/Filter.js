@@ -1,6 +1,5 @@
 import React from "react";
 import "./Filter.css";
-import { Button } from "bootstrap";
 
 function Filter() {
   return (
@@ -28,9 +27,6 @@ function Filter() {
             <option>hello</option>
             <option>hello</option>
           </select>
-        </div>
-        <div className="col">
-          <button className="btn btn-primary">Add</button>
         </div>
       </div>
     </div>
