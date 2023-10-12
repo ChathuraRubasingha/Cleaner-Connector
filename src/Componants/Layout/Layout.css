@@ -18,14 +18,17 @@
 }
 .sidebar-wrapper {
   margin-top: 10px;
-  width: 230px;
+  width: 15%;
   padding: 10px;
   background-color: rgb(255, 255, 255);
 }
 .content-wrapper {
+  width: 85%;
   padding: 10px;
   overflow-y: auto;
   overflow-x: hidden;
+  background-color: white;
+  margin: 10px 0px 0 10px;
 }
 .sidebar {
   height: 100%;
@@ -71,11 +74,15 @@
   }
 }
 @media screen and (max-width: 660px) {
+  .content-wrapper {
+    width: 100%;
+    margin-right: 10px;
+  }
   .sidebar-wrapper {
     position: absolute;
     border-radius: 10px;
     margin: 20px;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(209, 209, 209);
   }
   .copyright {
     display: none;
