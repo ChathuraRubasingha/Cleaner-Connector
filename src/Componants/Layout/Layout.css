@@ -41,13 +41,15 @@
   font-weight: 500;
   cursor: pointer;
   text-decoration: none;
-  color: black;
+  color: rgb(0, 0, 0);
 }
 .active{
-    color: red;
+    color: rgba(0, 0, 0, 0.852);
+    background-color: rgba(239, 239, 239, 0.444);
+    border-radius: 10px;
 }
 .nav:hover {
-  color: rgb(14, 21, 167);
+  color: rgb(0, 0, 0);
   background-color: rgba(239, 239, 239, 0.673);
   border-radius: 10px;
 }
