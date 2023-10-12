@@ -1,5 +1,6 @@
 .cleaner-topic{
     display: flex;
-    padding: 10px;
+    justify-content: space-between;
+    padding: 10px 15px;
     font-weight: 500;
 }
