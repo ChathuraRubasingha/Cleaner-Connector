@@ -24,6 +24,8 @@
 }
 .content-wrapper {
   padding: 10px;
+  overflow-y: auto;
+  overflow-x: hidden;
 }
 .sidebar {
   height: 100%;
@@ -51,7 +53,7 @@
 }
 .nav:hover {
   color: rgb(14, 21, 167);
-  background-color: rgb(211, 211, 211);
+  background-color: rgba(239, 239, 239, 0.673);
   border-radius: 10px;
 }
 .copyright {
