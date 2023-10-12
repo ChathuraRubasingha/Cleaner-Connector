@@ -1,4 +1,4 @@
-.container {
+.profile-container {
     width: 80vw;
     height: 20vw;
     background-color: white;
@@ -14,13 +14,14 @@
   .content {
     display: flex;
     flex-direction: column;
-    justify-content: center; /* Center the content vertically */
-    align-items: center; /* Center the content horizontally */
+    justify-content: center;
+    align-items: center; 
     height: 100%;
   }
   
   .logo {
-    max-width: 100%;
+    max-width: 10vw;
+    height: 10vw;
     height: auto;
-    margin-top: 10px; /* Adjust as needed */
+    /* margin-top: 50px;  */
   }

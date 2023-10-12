@@ -15,7 +15,7 @@ function Sidebar() {
   return (
     <div className="sidebar">
       <div className="navigation">
-        <NavLink className="nav" activeClassName="active" to="/">
+        <NavLink className="nav" activeClassName="active" to="/profile">
           <FaUser style={{ padding: "0 20px 0 10px" }} />
           My Profile
         </NavLink>
