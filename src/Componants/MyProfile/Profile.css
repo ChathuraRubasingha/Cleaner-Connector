@@ -1,0 +1,26 @@
+.container {
+    width: 80vw;
+    height: 20vw;
+    background-color: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    text-align: center; 
+    margin: 0 auto; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center; 
+  }
+  
+  .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center the content vertically */
+    align-items: center; /* Center the content horizontally */
+    height: 100%;
+  }
+  
+  .logo {
+    max-width: 100%;
+    height: auto;
+    margin-top: 10px; /* Adjust as needed */
+  }
