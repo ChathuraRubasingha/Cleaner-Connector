@@ -27,7 +27,7 @@ function Sidebar() {
           <FaUsers style={{ margin: "0 20px 0 10px" }} />
           My Cleaners
         </NavLink>
-        <NavLink className="navLink" activeClassName="active" to="/">
+        <NavLink className="navLink" activeClassName="active" to="/myareas&sites">
           <FaShoppingCart style={{ margin: "0 20px 0 10px" }} />
           Orders
         </NavLink>

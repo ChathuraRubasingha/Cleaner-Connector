@@ -5,6 +5,7 @@ import Mycleaner from "./Pages/MyCleaner/Mycleaner";
 import Profile from "./Pages/Profile/Profile";
 import Mysites from "./Pages/MySites/Mysites";
 import SiteArea from "./Pages/Area/SiteArea";
+import MyAreasAndClients from "./Componants/Areas_Clients/MyAreasAndClients";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Route path="/profile" element={<Profile />} />
         <Route path="/mysites" element={<Mysites />} />
         <Route path="/sitearea" element={<SiteArea />} />
+        <Route path="/myareas&sites" element={<MyAreasAndClients />} />
         SiteArea
       </Routes>
     </BrowserRouter>

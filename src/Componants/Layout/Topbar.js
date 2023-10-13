@@ -1,5 +1,7 @@
-import React, { useEffect, useState } from "react";
-import "./Topbar.css";
+
+import React, {useEffect,useState} from "react";
+import logo from "../../Assets/white_icon_transparent_background.png"
+import "./Topbar.css"
 import PRIMARY from "../../Theme/palette";
 import { FaBars, FaHamburger } from "react-icons/fa";
 
