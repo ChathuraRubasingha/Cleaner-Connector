@@ -1,6 +1,9 @@
-import React, { useEffect, useState } from "react";
-import "./Topbar.css";
+
+import React, {useEffect,useState} from "react";
+import logo from "../../Assets/white_icon_transparent_background.png"
+import "./Topbar.css"
 import PRIMARY from "../../Theme/palette";
+
 
 function Topbar() {
   const [currentTime, setCurrentTime] = useState(new Date());
@@ -19,7 +22,7 @@ function Topbar() {
       style={{ backgroundColor: PRIMARY.black, color: PRIMARY.white }}
     >
       <div className="left-content">
-        <img src="/path/to/your/logo.png" alt="Logo" className="logo" />
+        <img src={logo} alt="Logo" className="logo" style={{width:"25px", height:"25px"}} />
         <div className="text">Service Provider Portal</div>
       </div>
       <div className="right-content">
