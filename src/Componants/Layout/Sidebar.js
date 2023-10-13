@@ -8,6 +8,7 @@ import {
   FaShoppingCart,
   FaUser,
   FaUsers,
+  FaBuildingUser
 } from "react-icons/fa";
 import { NavLink } from "react-router-dom";
 
@@ -24,6 +25,9 @@ function Sidebar() {
         <NavLink className="nav" activeClassName="active" to="/mycleaner">
           <FaUsers style={{ margin: "0 20px 0 10px" }} />
           My Cleaners
+        </NavLink>
+        <NavLink className="nav" activeClassName="active" to="/myareas&sites">
+          <FaUser style={{ margin: "0 20px 0 10px" }} /> My Areas & Clients
         </NavLink>
         <NavLink className="nav" activeClassName="active" to="/">
           <FaShoppingCart style={{ margin: "0 20px 0 10px" }} />
