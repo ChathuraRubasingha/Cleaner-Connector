@@ -3,6 +3,7 @@ import Layout from "../../Componants/Layout/Layout";
 import "./Mycleaner.css";
 import Filter from "../../Componants/Filter/Filter";
 import Table from "../../Componants/Table/Table";
+import PRIMARY from "../../Theme/palette";
 
 function Mycleaner() {
   return (
@@ -12,8 +13,10 @@ function Mycleaner() {
         <button
           className="btn btn-primary"
           style={{
+            border:"none",
+            backgroundColor: PRIMARY.darkGray,
             padding: "0 20px",
-            color: "white",
+            color: PRIMARY.white,
             fontWeight: "500",
           }}
         >
