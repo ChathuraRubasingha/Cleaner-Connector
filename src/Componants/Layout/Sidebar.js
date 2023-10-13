@@ -15,11 +15,11 @@ function Sidebar() {
   return (
     <div className="sidebar">
       <div className="navigation">
-        <NavLink className="nav" activeClassName="active" to="/">
-          <FaUser style={{ margin:'0 20px 0 10px'}} />
+        <NavLink className="nav" activeClassName="active" to="/profile">
+          <FaUser style={{ padding: "0 20px 0 10px" }} />
           My Profile
         </NavLink>
-        <NavLink className="nav" activeClassName="active" to="/">
+        <NavLink className="nav" activeClassName="active" to="/mysites">
           <FaBuilding style={{ margin: "0 20px 0 10px" }} /> My Clients & Sites
         </NavLink>
         <NavLink className="nav" activeClassName="active" to="/mycleaner">
