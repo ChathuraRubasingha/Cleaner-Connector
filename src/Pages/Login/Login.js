@@ -39,7 +39,7 @@ function Login() {
                         <path d="M4 8a1 1 0 1 1-2 0 1 1 0 0 1 2 0z" />
                       </svg>
                     </span>
-                    <input type="password" class="form-control" name="password" id="password" value="" required/>
+                    <input type="password" class="form-control" name="password" id="password"  required/>
                   </div>
                 </div>
                 <div class="col-12">
