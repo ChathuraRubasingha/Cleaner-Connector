@@ -7,12 +7,15 @@ import PRIMARY from "../../Theme/palette";
 import CleanerModal from "../../Componants/Modal/CleanerModal";
 
 function Mycleaner() {
-  const [modalShow, setModalShow] = useState(false);
+  const [show, setShow] = useState(false);
+  const handleShow = () => setShow(true);
+
   return (
     <Layout>
       <div className="cleaner-topic">
         <p>My Cleaners </p>
         <button
+          onClick={handleShow}
           className="btn btn-primary"
           style={{
             border: "none",
@@ -28,7 +31,7 @@ function Mycleaner() {
       <div>
         <Filter />
         <Table />
-        <CleanerModal/>
+        <CleanerModal show={show} setShow={setShow} />
       </div>
     </Layout>
   );
