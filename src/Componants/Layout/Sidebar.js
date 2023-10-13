@@ -16,7 +16,7 @@ function Sidebar() {
     <div className="sidebar">
       <div className="navigation">
         <NavLink className="nav" activeClassName="active" to="/profile">
-          <FaUser style={{ padding: "0 20px 0 10px" }} />
+          <FaUser style={{ margin: "0 20px 0 10px" }} />
           My Profile
         </NavLink>
         <NavLink className="nav" activeClassName="active" to="/mysites">
