@@ -2,10 +2,10 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #333;
+  background-color: #101921;
   color: white;
   padding: 10px;
-  height: 40px;
+  height: 45px;
 }
 
 .left-content {
